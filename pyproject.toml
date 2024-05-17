@@ -13,9 +13,9 @@ license = "Apache License - Version 2.0"
 
 [tool.poetry.dependencies]
 python = ">=3.8"
+Streamlit = ">=1.15.0"
 
 [tool.poetry.dev-dependencies]
-Streamlit = ">=1.15.0"
 pytest = ">=7.0" 
 twine = ">=4.0.2"
 
