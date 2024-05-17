@@ -27,7 +27,7 @@ jobs:
       - name: Test package
         run: |
           pip install dist/*.whl
-          python -c "from embedlit import *; print('Import successful')"
+          python -c "from embedlit import *; hello(); print('Import successful')"
 
   publish:
     if: github.ref == 'refs/heads/main'
