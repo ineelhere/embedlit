@@ -11,7 +11,7 @@ def get_twitter_embed_html(tweet_url):
     else:
         return "Error: Unable to fetch tweet"
 
-def embed_twitter_video(tweet_url, height=600, alignment='center'):
+def tweet_embed(tweet_url, height=600, alignment='center'):
     twitter_embed_html = get_twitter_embed_html(tweet_url)
     if "Error" not in twitter_embed_html:
         # Define the alignment styles
@@ -37,4 +37,4 @@ def embed_twitter_video(tweet_url, height=600, alignment='center'):
 # alignment = st.selectbox("Choose the alignment of the container:", ('left', 'center', 'right'))
 
 # if tweet_url:
-#     embed_twitter_video(tweet_url, height, alignment)
+#     tweet_embed(tweet_url, height, alignment)
