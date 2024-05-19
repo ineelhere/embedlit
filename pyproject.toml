@@ -1,0 +1,24 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "embedlit"
+version = "0.0.0"
+description = "Embed your social media content and other online stuff with ease on Streamlit dashboards"
+authors = ["Indraneel Chakraborty"]
+readme = "README.md"
+homepage = "https://github.com/ineelhere/embedlit"
+license = "Apache License - Version 2.0"
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+Streamlit = ">=1.15.0"
+
+[tool.poetry.dev-dependencies]
+pytest = ">=7.0" 
+twine = ">=4.0.2"
+
+[tool.poetry.scripts]
+
+[tool.poetry.extras]
